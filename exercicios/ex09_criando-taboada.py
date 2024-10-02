@@ -1,7 +1,8 @@
 # VAMOS CRIAR UMA TABOADA
 
 
-t = int(input('Qual taboa você deseja? '))
+t = int(input('Qual taboada você deseja ?'))
+
 
 print('{} x {} = {}'.format(1,t,1*t))
 print('{} x {} = {}'.format(2,t,2*t))
