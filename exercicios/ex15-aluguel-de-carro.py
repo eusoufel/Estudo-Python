@@ -1,6 +1,9 @@
 # ALUGUEL DE CARRO
 
 d = int(input('Quantos dias alugados ? '))
-km = int(input('Quantos km rodados ? '))
+k = int(input('Quantos km rodados ? '))
 
-print('O valor total a pagar é de R$:{}'.format())
+dia = d * 60
+km = k * 0.15
+
+print('O valor total a pagar é de R$:{:.2f}'.format(dia + km))
